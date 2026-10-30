@@ -36,7 +36,7 @@ Oct 29 16:10:04 myhost sshd[652]: Failed password for invalid user test from 203
 輸出：
 
 ```
-[+] 共解析到 1 筆失敗登入事件
+[+] 成功抓取到 1 筆 SSH 登入失敗，前三筆為：
     {'time': 'Oct 29 16:10:04', 'user': 'test', 'ip': '203.0.113.11', 'port': '34290', 'log_line_number': 1}
 [+] 失敗次數 >= 10 的來源IP
     183.63.110.206     17340
