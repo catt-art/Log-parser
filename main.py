@@ -4,7 +4,7 @@ from collections import Counter
 
 LOG_FILE = Path("auth.log")
 
-# 2. 修正：利用 re.VERBOSE 參數，可以優雅地寫多行 Regex，並在字串間補上必要的空格 \s+
+# 利用 re.VERBOSE 參數，寫多行 Regex，並在字串間補上必要的空格 \s+
 # 傳統syslog時間：Dec 10 08:33:31 LabSZ sshd[24389]: Failed password for invalid user admin from 103.207.39.212 port 58447 ssh2
 # RFC3339（2026-10-29T16:09:39+08:00 ...）
 PATTERN = re.compile(
