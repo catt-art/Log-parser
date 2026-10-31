@@ -47,7 +47,7 @@ Oct 29 16:10:04 myhost sshd[652]: Failed password for invalid user test from 203
 ```
 .
 ├── main.py     # 主程式
-├── auth.log   # 測試用範例日誌（假資料）
+├── auth.log   # 測試用範例日誌，資料來源(https://www.kaggle.com/datasets/omduggineni/loghub-ssh-log-data/data)
 └── README.md
 ```
 
