@@ -18,9 +18,9 @@
 ## 使用方式
 
 ```bash
-git clone <your-repo-url>
+git clone <repo-url>
 cd <project>
-python ssh_parser.py
+python main.py
 ```
 
 預設讀取專案目錄下的 `auth.log`，可在程式中修改 `LOG_FILE`。
@@ -46,7 +46,7 @@ Oct 29 16:10:04 myhost sshd[652]: Failed password for invalid user test from 203
 
 ```
 .
-├── ssh_parser.py     # 主程式
+├── main.py     # 主程式
 ├── auth.log   # 測試用範例日誌（假資料）
 └── README.md
 ```
